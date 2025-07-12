@@ -20,7 +20,7 @@ class PredictionPipelineConfig:
 
 
 class PredictionPipeline:
-    def _init_(self,request: request):
+    def _init_(self,request):
 
         self.request = request
         self.utils = MainUtils()
